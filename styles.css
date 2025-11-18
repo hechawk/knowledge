@@ -20,7 +20,7 @@ body {
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
-#skip-button {
+.skip-button {
   position: absolute;
   left: 65%;
   top: 5%;
@@ -32,4 +32,48 @@ body {
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
   cursor: pointer;
+}
+
+.submit-button {
+  position: absolute;
+  left: 70%;
+  top: 5%;
+  width: 5%;
+  transform: translate(-50%);
+  z-index: 1000;
+  background: rgba(255,255,255,0.9);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+#mode-button {
+  width: 20%;
+  background: rgba(255,255,255,0.9);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  cursor: pointer;
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+#home-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  clear: left;
+}
+
+#street-name {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
 }

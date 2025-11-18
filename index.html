@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
 </head>
 <body>
-    <input
-    type="text"
-    id="answer-box"
-    name="answer"
-    size="10" />
-    <button id="skip-button" onclick="SkipQuestion()">Skip</button>
-    <div id="map"></div>
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <div id="home-page">
+        <h1>Choose your mode:</h1>
+        <button id="mode-button">Name the street</button><br>
+        <button id="mode-button">Find the street</button><br>
+        <button id="mode-button">Learn the runs</button><br>
+        <button id="mode-button">Name every street</button><br>
+        <button id="mode-button">Learn the points of interest</button>
+    </div>
     <script src="index.js" type="module"></script>
 </body>
 </html>
